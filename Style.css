@@ -401,4 +401,8 @@ form button {
   .banner {
     margin-bottom: 5rem;
   }
+
+  .banner img{
+    width: 100%;
+  }
 }
