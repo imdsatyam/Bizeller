@@ -355,3 +355,50 @@ form button {
     margin-bottom: 5rem;
   }
 }
+
+@media screen and (max-width: 520px) {
+  html {
+    font-size: 45%;
+  }
+  .header {
+    margin: 1rem 5rem;
+  }
+  .searchBox {
+    display: none;
+  }
+
+  .menu{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .menu li{
+    margin: .5rem;
+  }
+
+  .cart {
+    display: none;
+  }
+  .productMenu {
+    flex-wrap: wrap;
+  }
+
+  .productHead {
+    margin: 5rem 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .tranding {
+    margin-bottom: 3rem;
+  }
+
+  .btn {
+    float: none;
+  }
+
+  .banner {
+    margin-bottom: 5rem;
+  }
+}
